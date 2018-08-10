@@ -1,0 +1,31 @@
+h1{
+    text-align: center;
+}
+tr {
+    font-size: 20px;
+    color:black;
+}
+th, td {
+    padding: 8px;
+}
+th {
+    background-color: #4CAF50;
+    color: white;
+    
+}
+td{
+    font-size: 15px;
+}
+
+table {
+    border-collapse: collapse;
+    width: 55%;
+}
+tr:nth-child(even){background-color: #f2f2f2}
+input{
+    height: 30px;
+    width: 550px;
+}
+button{
+    height: 30px;
+}

@@ -1,5 +1,6 @@
+
 <h1>{{title}}</h1>
-<div style="text-align:center;">
+<div class="container" style="text-align:center;">
 <input (keydown.enter)="onKeydown(newTodo.value);newTodo.value = ''" type = "text" #newTodo placeholder="add todo" />
 
 <button (click) ="onKeydown(newTodo.value);newTodo.value = ''">Add</button>
@@ -16,3 +17,4 @@
   </td>
 </tr>
 </table>
+</div>
